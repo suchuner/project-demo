@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/suchuner/project-demo.git
-          search-paths: project-config/resp
+          search-paths: project-config/respo
           username: suchuner@163.com
           password: 9426498zy.
 
