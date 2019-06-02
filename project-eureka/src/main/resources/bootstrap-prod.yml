@@ -2,6 +2,6 @@ spring:
   cloud:
     config:
       uri: http://192.168.1.135:8888
-      name: project-eureka
+      name: bootstrap-eureka
       label: master
       profile: prod
