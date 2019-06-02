@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: project-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/suchuner/spring-cloud-config.git
+          search-paths: respo
+          username: suchuner@163.com
+          password: 9426498zy.
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
